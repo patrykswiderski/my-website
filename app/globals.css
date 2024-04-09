@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.primary-color {
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
-}
+
 
 
 :root {
@@ -21,6 +19,14 @@
 
 body {
   background-color: black;
+}
+
+.primary-color {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
+}
+
+.bg-primary-color {
+  @apply bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
 }
 
 @layer utilities {
