@@ -14,7 +14,7 @@ function Projects() {
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'></span>
                     <div className='pt-8 text-center'>
-                        <a href='/'>
+                        <a href='https://online-grocery-store-app.vercel.app/'>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                         </a>
                     </div>
@@ -26,7 +26,7 @@ function Projects() {
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'></span>
                     <div className='pt-8 text-center'>
-                        <a href='/'>
+                        <a href='https://patrykswiderski.github.io/perfume-shop-project/'>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                         </a>
                     </div>
