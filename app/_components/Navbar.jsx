@@ -14,6 +14,7 @@ function Navbar() {
         <h1 className='text-3xl font-bold primary-color ml-4'>Patryk Świderski</h1>
         <ul className='hidden md:flex'>
             <li className='p-5'><a href='#about'>About</a></li>
+            <li className='p-5'><a href='#skills'>Skills</a></li>
             <li className='p-5'><a href='#projects'>Projects</a></li>
             <li className='p-5'><a href='#contact'>Contact</a></li>
         </ul>
@@ -26,6 +27,7 @@ function Navbar() {
             <h1 className='text-3xl primary-color m-4'>Patryk Świderski</h1>
             <ul className='p-8 text-2xl'>
                 <li className='p-2'><a href='#about'>About</a></li>
+                <li className='p-2'><a href='#skills'>Skills</a></li>
                 <li className='p-2'><a href='#projects'>Projects</a></li>
                 <li className='p-2'><a href='#contact'>Contact</a></li>
             </ul>
