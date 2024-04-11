@@ -10,7 +10,7 @@ function Hero() {
         <div className='grid grid-cols-1 max-w-[1200px] mx-auto bg-white'>
             
             <div className='flex flex-col justify-center items-center mx-auto my-auto w-auto h-auto'>
-                <img src='/best_1200.jpg' alt='hero image' className='lg:rounded-2xl'/>
+                <img src='/best2.jpg' alt='hero image' className='lg:rounded-2xl'/>
             </div>
 
             <div className='cols-span-2 px-5 my-auto'>

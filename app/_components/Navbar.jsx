@@ -10,7 +10,7 @@ function Navbar() {
   }
 
   return (
-    <div className='bg-white text-gray-800 font-semibold h-[100px] max-w-[1200px] mx-auto flex justify-between items-center'>
+    <div className='bg-white text-gray-800 font-semibold h-[80px] max-w-[1200px] mx-auto flex justify-between items-center'>
         <h1 className='text-3xl font-bold text-gray-800 ml-4'>Patryk.dev</h1>
         <ul className='hidden md:flex'>
             <li className='p-5 transform transition-transform hover:scale-110'><a href='#skills'>Skills</a></li>
