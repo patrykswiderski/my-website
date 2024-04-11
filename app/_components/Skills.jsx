@@ -2,7 +2,8 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div className=' bg-gray-200 text-gray-600 lg:rounded-2xl md:h-[200px] max-w-[1200px] mx-auto my-8 pb-4 md:pt-2 md:pb-2 grid grid-cols-4 place-items-center md:flex md:justify-between md:items-center'>
+    <div className='bg-gray-200 text-gray-600 lg:rounded-2xl md:h-[200px] max-w-[1200px] mx-auto my-8 pb-4 md:pt-2 md:pb-2 grid grid-cols-4 place-items-center md:flex md:justify-between md:items-center' id='skills'>
+
         <h2 className='text-gray-700 text-xl md:text-4xl font-bold m-4'>
             My <br/> Tech <br/> Stack
         </h2>

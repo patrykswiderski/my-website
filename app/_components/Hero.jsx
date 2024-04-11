@@ -20,7 +20,7 @@ function Hero() {
                     </span> <br/>
                     <TypeAnimation 
                         sequence={[
-                          "Web developer",
+                          "Web dev",
                           2000,
                           "Front-End Dev",
                           2000,
