@@ -16,7 +16,7 @@ function About() {
                 </div>
             </div>
     
-            <img src='/about2.jpg' className='hidden md:block mx-auto md:rounded-2xl py-8 md:py-0 lg:shadow-sm shadow-gray-500 h-[320px]' alt='photo'/>
+            <img src='/about2.jpg' className='hidden sm:block mx-auto sm:rounded-2xl py-8 md:py-0 lg:shadow-sm shadow-gray-500 h-[320px]' alt='photo'/>
         </div>
     </div>
   )
