@@ -50,7 +50,7 @@ function Hero() {
                         patryk.swiderski.85@gmail.com
                     </a>
 
-                    <a href='/' className='col-span-2 w-full lg:w-auto text-center px-6 py-3 rounded-xl lg:mr-4 bg-gradient-to-br  from-pink-700 to-violet-900 text-white transform transition-transform hover:scale-105 hover:text-gray-800 hover:font-bold shadow-md shadow-gray-500'>
+                    <a href='/CV_Patryk_Swiderski_EN.pdf' className='col-span-2 w-full lg:w-auto text-center px-6 py-3 rounded-xl lg:mr-4 bg-gradient-to-br  from-pink-700 to-violet-900 text-white transform transition-transform hover:scale-105 hover:text-gray-800 hover:font-bold shadow-md shadow-gray-500'>
                         Download CV
                     </a>
                     
