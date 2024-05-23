@@ -60,16 +60,16 @@ function Navbar() {
       >
         <h1 className="text-2xl sm:text-3xl text-gray-200 r m-4">Patryk.dev</h1>
         <ul className="p-2 text-xl sm:text-2xl text-gray-200">
-          <li className={cssClassLg}>
+          <li className={cssClassLg} onClick={handleNav}>
             <a href="#skills">Skills</a>
           </li>
-          <li className={cssClassLg}>
+          <li className={cssClassLg} onClick={handleNav}>
             <a href="#projects">Projects</a>
           </li>
-          <li className={cssClassLg}>
+          <li className={cssClassLg} onClick={handleNav}>
             <a href="#about">About</a>
           </li>
-          <li className={cssClassLg}>
+          <li className={cssClassLg} onClick={handleNav}>
             <a href="#contact">Contact</a>
           </li>
         </ul>
