@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   const cssProjectContainer =
-    "transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div h-auto bg-cover relative";
+    "transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div h-auto bg-cover relative bg-black";
 
   return (
     <div className="max-w-[1200px] mx-auto p-5" id="projects">
@@ -13,7 +13,7 @@ function Projects() {
 
       <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-6">
         <div className={cssProjectContainer}>
-          <img src="/port1.png" layout="fill" objestFit="cover" alt="" />
+          <img src="/port1.png" layout="fill" alt="page photo" className="object-cover"/>
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider"></span>
             <div className="pt-8 text-center">
@@ -27,7 +27,21 @@ function Projects() {
         </div>
 
         <div className={cssProjectContainer}>
-          <img src="/port2.png" layout="fill" objestFit="cover" alt="" />
+          <img src="/port3.png" layout="fill" alt="page photo" className="object-cover"/>
+          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
+            <span className="text-2xl font-bold text-white tracking-wider"></span>
+            <div className="pt-8 text-center">
+              <a href="https://movieflix-app-seven.vercel.app/">
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  Live
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className={cssProjectContainer}>
+          <img src="/port2.png" layout="fill" alt="page photo" className="object-cover" />
           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider"></span>
             <div className="pt-8 text-center">
@@ -39,6 +53,8 @@ function Projects() {
             </div>
           </div>
         </div>
+
+        
       </div>
     </div>
   );

@@ -10,8 +10,7 @@ function About() {
                 <div className='my-auto mx-6'>
                     <h2 className='text-4xl font-bold mb-4 text-gray-800 rou'>About Me</h2>
                     <p className='text-base text-gray-600 lg:text-lg'>
-                    Hey, my name is Patryk and I'm passionate about front-end development, back-end development. I love challanges and getting better therefore I try to learn something new every day and master the things that I do and work on. My main stack currently is React/Next.js in combination with Tailwind CSS.
-                    When I'm not coding though, you can find me in my garage, painting or fishing. 
+                    Hello! My name is Patryk Świderski, a passionate Front-End Developer based in Warsaw, Poland. I specialize in React and Next.js, combined with Tailwind CSS. I thrive on challenges and continuously strive to learn and master new technologies. My enthusiasm for both front-end and back-end development drives me to improve daily. When I'm not coding, I enjoy spending time in my garage, painting, or fishing. My diverse interests and commitment to personal growth reflect my dedication to delivering high-quality work in the tech industry. 
                     </p>
                 </div>
             </div>
