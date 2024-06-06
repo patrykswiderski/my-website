@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import Navbar from "./_components/Navbar";
 import Hero from "./_components/Hero";
 import Projects from "./_components/Projects";
@@ -12,7 +11,17 @@ import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
     document.title = 'Patryk.dev | Home';
-  }, [])
+
+    const link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = '../public/icon_my_new.png';
+    
+    document.head.appendChild(link);
+
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
   return (
     <div>
       <Navbar/>
