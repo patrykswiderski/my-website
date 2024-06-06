@@ -2,11 +2,11 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='text-gray-600 bg-gray-200 lg:rounded-2xl max-w-[1200px] mx-auto my-8 py-2' id='about'>
+    <div className='h-max text-gray-600 bg-gray-200 lg:rounded-2xl max-w-[1200px] mx-auto my-8 py-2' id='about'>
 
         <div className='md:grid md:grid-cols-2 sm:py-16'>
 
-            <div className='mt-4 md:mt-0 text-left flex'>
+            <div className='mt-4 md:mt-0 text-left flex flex-col md:flex-row'>
                 <div className='my-auto mx-6'>
                     <h2 className='text-4xl font-bold mb-4 text-gray-800 rou'>About Me</h2>
                     <p className='text-base text-gray-600 lg:text-lg'>
@@ -15,7 +15,7 @@ function About() {
                 </div>
             </div>
     
-            <img src='/about2.jpg' className='hidden sm:block mx-auto sm:rounded-2xl py-8 md:py-0 lg:shadow-sm shadow-gray-500 h-[320px]' alt='photo'/>
+            <img src='/about2.jpg' className=' sm:block mx-auto rounded-3xl sm:rounded-2xl py-8 md:py-0 lg:shadow-sm shadow-gray-500 h-[320px]' alt='photo'/>
         </div>
     </div>
   )
