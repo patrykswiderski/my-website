@@ -57,7 +57,7 @@ function Navbar() {
     <div
       className={`fixed top-0 left-0 right-0 font-semibold max-w-[1200px] mx-auto flex justify-between items-center transition-all duration-300 ${
         scrolled
-          ? "h-[50px] bg-gray-800 text-gray-100 rounded-b-md shadow-md shadow-gray-500 z-50"
+          ? "h-[50px] bg-gray-800 text-gray-100 rounded-b-md shadow-md shadow-gray-500 z-40"
           : "h-[80px] bg-white text-gray-800 "
       }`}
     >
