@@ -104,7 +104,7 @@ function Navbar() {
       <div
         className={`nav-menu ${
           nav
-            ? "z-30 fixed h-full left-0 top-0 w-[60%] bg-gray-900 ease-in-out duration-500"
+            ? "z-40 fixed h-full left-0 top-0 w-[60%] bg-gray-900 ease-in-out duration-500"
             : "fixed left-[-100%]"
         }`}
       >
