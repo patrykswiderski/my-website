@@ -12,15 +12,6 @@ export default function Home() {
   useEffect(() => {
     document.title = 'Patryk.dev | Home';
 
-    const link = document.createElement('link');
-    link.rel = 'icon';
-    link.href = '../public/icon_my_new.png';
-    
-    document.head.appendChild(link);
-
-    return () => {
-      document.head.removeChild(link);
-    };
   }, []);
   return (
     <div>
