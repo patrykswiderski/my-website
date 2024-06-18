@@ -20,7 +20,7 @@ function Skills() {
 				<p className="mt-2 font-medium">CSS</p>
 			</div>
 
-			<div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[80px] transform transition-transform hover:scale-110">
+			<div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[60px] lg:w-[80px] transform transition-transform hover:scale-110">
 				<img src="/javascript.png" alt="javascript icon" />
 				<p className="mt-2 font-medium">JavaScript</p>
 			</div>

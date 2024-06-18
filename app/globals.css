@@ -2,35 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 :root {
-  --foreground-rgb: 0, 0, 0;
+	--foreground-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-start-rgb: 0, 0, 0;
+		--background-end-rgb: 0, 0, 0;
+	}
 }
 
 body {
-  background-color: white;
+	background-color: white;
 }
 
 .primary-color {
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-pink-700 to-violet-900 inline-block;
+	@apply text-transparent bg-clip-text bg-gradient-to-r from-pink-700 to-violet-900 inline-block;
 }
 
 .bg-primary-color {
-  @apply bg-gradient-to-r  from-pink-700 to-violet-900 inline-block;
+	@apply bg-gradient-to-r  from-pink-700 to-violet-900 inline-block;
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+	.text-balance {
+		text-wrap: balance;
+	}
 }
+
+/* @keyframes flash-horizontal {
+	0% {
+		background-position: -100%;
+	}
+	50% {
+		background-position: 100%;
+	}
+	100% {
+		background-position: 200%;
+	}
+}
+
+.flash-horizontal {
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0.2) 25%,
+		rgba(255, 255, 255, 0.5) 50%,
+		rgba(255, 255, 255, 0.2) 75%
+	);
+	background-size: 200% 100%;
+	animation: flash-horizontal 0.1s infinite;
+} */
