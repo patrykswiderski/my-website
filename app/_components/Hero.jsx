@@ -1,9 +1,7 @@
 "use client";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import Image from "next/image";
 import { IconBrandLinkedin, IconBrandGithub } from "@tabler/icons-react";
-import FlashingButton from "../components/FlashingButton";
 
 function Hero() {
 	return (
