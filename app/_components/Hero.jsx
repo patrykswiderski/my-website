@@ -20,7 +20,7 @@ function Hero() {
 								2000,
 								"Back-End Developer",
 								2000,
-								"Freelance Web Developer",
+								"Freelance Web Dev",
 								2000,
 							]}
 							wrapper="span"
