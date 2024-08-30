@@ -22,14 +22,6 @@ function Hero() {
 								2000,
 								"Freelance Web Developer",
 								2000,
-								"JavaScript Dev",
-								2000,
-								"React Dev",
-								2000,
-								"Next.js Dev",
-								2000,
-								"TypeScript Dev",
-								2000,
 							]}
 							wrapper="span"
 							speed={40}
