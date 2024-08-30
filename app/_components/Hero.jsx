@@ -30,8 +30,8 @@ function Hero() {
 					</h1>
 
 					<p className="text-gray-600 sm:text-lg my-6 lg:text-xl">
-						My name is Patryk Świderski. A passionate Front-end React Developer
-						based in Warsaw, Poland.
+						My name is Patryk Świderski. A passionate Web Developer based in
+						Warsaw, Poland.
 					</p>
 
 					<div className="mx-auto grid grid-cols-2 place-items-center sx:flex sx:justify-start sx:items-center gap-4 sx:gap-4 my-8">
