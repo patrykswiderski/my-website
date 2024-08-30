@@ -12,6 +12,15 @@ module.exports = {
 				"gradient-conic":
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 			},
+			screens: {
+				"xs": "300px", // Nowy breakpoint dla małych ekranów
+				"sx": "420px", // Nowy breakpoint dla małych ekranów
+				"sm": "640px", // Domyślny breakpoint Tailwind
+				"md": "768px", // Domyślny breakpoint Tailwind
+				"lg": "1024px", // Domyślny breakpoint Tailwind
+				"xl": "1280px", // Domyślny breakpoint Tailwind
+				"2xl": "1536px", // Domyślny breakpoint Tailwind
+			},
 			// keyframes: {
 			// 	"flash-horizontal": {
 			// 		"0%": { backgroundPosition: "-200% 0" },

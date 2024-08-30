@@ -18,11 +18,17 @@ function Hero() {
 							sequence={[
 								"Front-End Developer",
 								2000,
-								"Junior Web Developer",
+								"Back-End Developer",
 								2000,
-								"JavaScript Developer",
+								"Freelance Web Developer",
 								2000,
-								"React Developer",
+								"JavaScript Dev",
+								2000,
+								"React Dev",
+								2000,
+								"Next.js Dev",
+								2000,
+								"TypeScript Dev",
 								2000,
 							]}
 							wrapper="span"
@@ -36,7 +42,7 @@ function Hero() {
 						based in Warsaw, Poland.
 					</p>
 
-					<div className="mx-auto grid grid-cols-2 place-items-center md:flex md:justify-start md:items-center gap-4 md:gap-4 my-8">
+					<div className="mx-auto grid grid-cols-2 place-items-center sx:flex sx:justify-start sx:items-center gap-4 sx:gap-4 my-8">
 						<a
 							href="https://www.linkedin.com/in/patryk-świderski"
 							className="transform transition-transform hover:scale-110"
@@ -53,17 +59,17 @@ function Hero() {
 
 						<a
 							href="mailto:patryk.swiderski.85@gmail.com"
-							className="col-span-2 w-full lg:w-auto font-bold lg:font-semibold text-gray-700 text-center px-6 py-3 rounded-xl lg:mr-4 border border-x-gray-400 hover:bg-gradient-to-br from-gray-500 to-gray-900 hover:text-white hover:border-none transform transition-transform hover:scale-105 shadow-md shadow-gray-500"
+							className="col-span-2 w-full sx:w-auto text-xs sx:text-xs sm:text-base font-bold lg:font-semibold text-gray-700 text-center px-6 py-3 rounded-xl lg:mr-4 border border-x-gray-400 hover:bg-gradient-to-br from-gray-500 to-gray-900 hover:text-white hover:border-none transform transition-transform hover:scale-105 shadow-md shadow-gray-500"
 						>
 							patryk.swiderski.85@gmail.com
 						</a>
 
-						<a
+						{/* <a
 							href="/CV_Patryk_Swiderski_EN.pdf"
 							className="col-span-2 w-full lg:w-auto text-center px-6 py-3 rounded-xl lg:mr-4 bg-gradient-to-br  from-pink-700 to-violet-900 text-white transform transition-transform hover:scale-105 hover:text-gray-800 hover:font-bold shadow-md shadow-gray-500"
 						>
 							Download CV
-						</a>
+						</a> */}
 
 						{/* <a href='#contact' className='col-span-2 w-full lg:w-auto text-center px-6 py-3 rounded-xl lg:mr-4 border border-x-gray-400 hover:bg-gradient-to-br from-orange-500 to-pink-500 text-white hoover:border-none transform transition-transform hover:scale-105'>
                         Contact
