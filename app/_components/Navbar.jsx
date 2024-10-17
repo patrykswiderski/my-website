@@ -80,12 +80,6 @@ function Navbar() {
 				</li>
 				<li
 					className={cssClassSm}
-					onClick={(e) => handleLinkClick(e, "#skills")}
-				>
-					<a href="#skills">Skills</a>
-				</li>
-				<li
-					className={cssClassSm}
 					onClick={(e) => handleLinkClick(e, "#projects")}
 				>
 					<a href="#projects">Projects</a>
@@ -95,6 +89,12 @@ function Navbar() {
 					onClick={(e) => handleLinkClick(e, "#about")}
 				>
 					<a href="#about">About</a>
+				</li>
+				<li
+					className={cssClassSm}
+					onClick={(e) => handleLinkClick(e, "#skills")}
+				>
+					<a href="#skills">Skills</a>
 				</li>
 				<li
 					className={cssClassSm}
