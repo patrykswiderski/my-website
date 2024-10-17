@@ -27,6 +27,7 @@ const skillsData = [
 	{ src: "/PostgreSQL.png", alt: "PostgreSQL icon", name: "PostgreSQL" },
 
 	// Tools & Platforms
+	{ src: "/thirdweb.png", alt: "Thirdweb icon", name: "Thirdweb" },
 	{ src: "/Github.png", alt: "GitHub icon", name: "GitHub" },
 	{ src: "/vercel.svg", alt: "Vercel icon", name: "Vercel" },
 	{ src: "/Figma.png", alt: "Figma icon", name: "Figma" },
