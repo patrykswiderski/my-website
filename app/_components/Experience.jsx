@@ -21,9 +21,8 @@ function Experience() {
 						</p>
 						<ul className="list-disc sm:ml-5 my-5 md:my-7 pl-6 space-y-2 font-sans tracking-wide text-gray-700 text-xs sm:text-sm md:text-base">
 							<li>
-								Implemented new features and fixed bugs in enterprise
-								applications used for data quality management and rewrote UI
-								components to use modern technologies.
+								Creating dashboard, landing pages improvements, new features and
+								fixed bugs in enterprise app and rewrote UI components.
 							</li>
 							<li>
 								Developed scalable backend services with payments system using
@@ -31,7 +30,8 @@ function Experience() {
 							</li>
 							<li>Implemented multilingual support with i18Next.</li>
 							<li>
-								Built mobile apps using React Native, Gradle and Thirdweb.
+								Built mobile apps using pure React and Redux, Gradle and
+								Thirdweb.
 							</li>
 						</ul>
 
