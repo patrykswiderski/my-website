@@ -76,7 +76,7 @@ function Contact() {
 							</h2>
 							<a
 								href="mailto:patryk.swiderski.85@gmail.com"
-								className="my-8 text-sm sx:text-base sm:text-xl font-semibold lg:font-semibold text-gray-600 text-center hover:text-blue-600 hover:underline transition duration-200 font-sans"
+								className="my-8 text-sm sx:text-base sm:text-xl font-semibold lg:font-semibold text-gray-700 text-center hover:text-blue-600 hover:underline transition duration-200 font-sans"
 							>
 								patryk.swiderski.85@gmail.com
 							</a>
