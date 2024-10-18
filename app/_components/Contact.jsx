@@ -65,7 +65,7 @@ function Contact() {
 									<div className="sm:col-span-2">
 										<button
 											type="submit"
-											className="sx:text-lg sm:text-xl w-full p-2 sm:p-4 mt-2 font-semibold text-white bg-blue-800/60 rounded-sm shadow-sm border border-transparent hover:border-2 hover:shadow-xl transition duration-200 "
+											className="sx:text-lg sm:text-xl w-full p-2 sm:p-4 mt-2 font-semibold text-white bg-blue-700/70 rounded-sm shadow-sm border border-transparent hover:border-2 hover:shadow-xl transition duration-200 "
 										>
 											Send
 										</button>

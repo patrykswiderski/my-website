@@ -26,7 +26,7 @@ function Projects() {
 								alt="page photo"
 								className="object-cover"
 							/>
-							<div className="opacity-0 group-hover:opacity-100 bg-[black]/40 absolute inset-0 flex flex-col justify-center items-center transform duration-300 ">
+							<div className="opacity-0 group-hover:opacity-100 bg-[black]/50 absolute inset-0 flex flex-col justify-center items-center transform duration-300 ">
 								<span className="text-2xl font-bold text-white tracking-wider"></span>
 								<div className="pt-8 text-center">
 									<a href={myProject.link} target="_blank">
