@@ -1,22 +1,29 @@
 "use client";
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
 	return (
 		<div className="mt-[80px]">
+			<div className="flex flex-col justify-center items-start">
+				<img
+					src="/best2.jpg"
+					alt="hero image"
+					className="object-cover h-72 sx:h-80 sm:h-96 md:h-full"
+				/>
+				{/* <div className="text-neutral-200 text-lg sm:text-2xl md:text-3xl lg:text-4xl tracking-tight font-bold font-sans absolute top-1/4 left-28">
+						Hello, I'm Patryk
+					</div> */}
+			</div>
 			<div className="grid grid-cols-1 max-w-[1200px] mx-auto bg-white">
-				<div className="flex flex-col justify-center items-center mx-auto my-auto w-auto h-auto">
-					<img src="/best2.jpg" alt="hero image" className="lg:rounded-md" />
-				</div>
-
 				<div className="cols-span-2 px-2 sx:px-5 my-8 mb-10">
-					{/* <h1 className="text-gray-800 text-2xl sm:text-4xl lg:text-7xl font-extrabold mt-20">
+					<h1 className="text-gray-800 text-2xl xs:text-3xl sx:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mt-5 sx:mt-10 sm:mt-20 tracking-tight">
 						<span className="primary-color">I'm a</span> <br />
 						<TypeAnimation
 							sequence={[
-								"Freelance Web Dev",
+								"Passionate full stack dev",
 								3000,
-								"Full Stack Web App Dev",
+								"Freelance web dev",
 								3000,
 								"Front-End Developer",
 								3000,
@@ -27,15 +34,7 @@ function Hero() {
 							speed={10}
 							repeat={Infinity}
 						/>
-					</h1> */}
-
-					<p className="text-gray-600 text-xs sm:text-base md:text-lg sx:mt-6 sm:mt-14 lg:text-xl tracking-tighter">
-						Hi, my name is Patryk Świderski
-					</p>
-					<p className="text-gray-800 font-semibold text-xl sx:text-2xl sm:text-3xl mt-1 sm:mt-3 lg:text-4xl tracking-tighter">
-						I’m a passionate full stack developer, specialized in development of
-						web applications using React, Next.js, Node.js & more
-					</p>
+					</h1>
 				</div>
 			</div>
 		</div>

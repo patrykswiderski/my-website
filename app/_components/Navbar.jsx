@@ -66,10 +66,10 @@ function Navbar() {
 				className={`ml-4 tracking-tight ${
 					scrolled
 						? " text-gray-100 font-normal text-2xl"
-						: " text-gray-800 font-bold text-xl sx:text-2xl sm:text-3xl"
+						: " text-gray-800 font-bold sx:text-lg sm:text-xl"
 				}`}
 			>
-				Patryk.dev
+				Patryk Świderski
 			</h1>
 			<ul className="hidden md:flex">
 				<li

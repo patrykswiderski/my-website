@@ -3,11 +3,11 @@ import React from "react";
 
 function Experience() {
 	const styleListElement =
-		"bg-neutral-200 px-1 text-gray-800 rounded-sm tracking-wide";
+		"bg-purple-100 px-1 text-neutral-700 rounded-sm tracking-wide";
 
 	return (
 		<div className="lg:my-14 sm:py-10" id="experience">
-			<div className="max-w-[1200px] mx-auto px-2 sx:p-5 lg:p-14">
+			<div className="max-w-[1200px] mx-auto px-2 sx:p-5 lg:py-14">
 				<h2 className="text-gray-800 text-xl sx:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 md:mb-10 tracking-tight">
 					Experience
 				</h2>
