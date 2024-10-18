@@ -4,12 +4,12 @@ import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
 	return (
-		<div className="mt-[80px]">
+		<div className="mt-[80px]" id="hero">
 			<div className="flex flex-col justify-center items-start">
 				<img
 					src="/best2.jpg"
 					alt="hero image"
-					className="object-cover h-72 sx:h-80 sm:h-96 md:h-full"
+					className="object-cover h-72sx:h-80 sm:h-96 md:h-full"
 				/>
 				{/* <div className="text-neutral-200 text-lg sm:text-2xl md:text-3xl lg:text-4xl tracking-tight font-bold font-sans absolute top-1/4 left-28">
 						Hello, I'm Patryk

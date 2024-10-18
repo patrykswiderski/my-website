@@ -64,16 +64,17 @@ function Navbar() {
 				}`}
 			></div>
 			<div
-				className={`fixed top-0 left-0 right-0 font-semibold max-w-[1200px] mx-auto flex justify-between items-center transition-all duration-300 z-50 ${
+				className={`fixed top-0 left-0 right-0 max-w-[1200px] mx-auto flex justify-between items-center transition-all duration-300 z-50 ${
 					scrolled
-						? "h-[50px] bg-gray-800 text-gray-100 "
-						: "h-[80px] bg-white text-gray-800 "
+						? "h-[50px] bg-gray-800 text-gray-100 font-normal"
+						: "h-[80px] bg-white text-gray-800 font-semibold"
 				}`}
 			>
 				<h1
-					className={`ml-4 tracking-tight sx:text-lg sm:text-xl ${
+					className={`ml-4 tracking-tight sx:text-lg sm:text-xl cursor-pointer transition duration-300 hover:-translate-y-1${
 						scrolled ? " text-gray-100 font-normal" : " text-gray-800 font-bold"
 					}`}
+					onClick={(e) => handleLinkClick(e, "#hero")}
 				>
 					Patryk Świderski
 				</h1>
@@ -122,9 +123,9 @@ function Navbar() {
 					}`}
 				>
 					<h1 className="text-2xl sm:text-3xl text-gray-200 r m-4">
-						Patryk.dev
+						Patryk Świderski
 					</h1>
-					<ul className="p-2 text-xl sm:text-2xl text-gray-200">
+					<ul className="p-2 text-lg sm:text-xl text-gray-200">
 						<li className={cssClassLg} onClick={handleNav}>
 							<a
 								href="#experience"
