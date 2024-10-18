@@ -6,9 +6,9 @@ const skillsData = [
 
 	// Frontend Frameworks/Libraries
 	{ src: "/react.png", alt: "React icon", name: "React" },
-	{ src: "/react.png", alt: "React Native icon", name: "React Native" },
 	{ src: "/Redux.png", alt: "Redux icon", name: "Redux" },
 	{ src: "/nextjs-icon.png", alt: "Next.js icon", name: "Next.js" },
+	{ src: "/react.png", alt: "React Native icon", name: "React Native" },
 	{ src: "/Expo.png", alt: "Expo icon", name: "Expo" },
 
 	// Backend Frameworks/Libraries
