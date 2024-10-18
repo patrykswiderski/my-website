@@ -26,11 +26,11 @@ function Projects() {
 								alt="page photo"
 								className="object-cover"
 							/>
-							<div className="opacity-0 group-hover:opacity-90 bg-[gray]/30 absolute inset-0 flex flex-col justify-center items-center transform duration-300 ">
+							<div className="opacity-0 group-hover:opacity-100 bg-[black]/40 absolute inset-0 flex flex-col justify-center items-center transform duration-300 ">
 								<span className="text-2xl font-bold text-white tracking-wider"></span>
 								<div className="pt-8 text-center">
 									<a href={myProject.link} target="_blank">
-										<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										<button className="text-center rounded-md px-4 py-3 m-2 bg-white tracking-wide text-neutral-900 shadow-md font-bold text-lg hover:-translate-y-1 transition duration-300">
 											Live
 										</button>
 									</a>
