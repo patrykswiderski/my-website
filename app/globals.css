@@ -26,11 +26,6 @@ body {
 	@apply bg-gradient-to-r  from-pink-700 to-violet-900 inline-block;
 }
 
-.bg-primary-color-opacity {
-	@apply bg-gradient-to-r  from- to-fuchsia-800 inline-block;
-	/* @apply opacity-40; */
-}
-
 @layer utilities {
 	.text-balance {
 		text-wrap: balance;
