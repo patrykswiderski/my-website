@@ -38,11 +38,11 @@ function Projects() {
 									</div>
 								</div>
 							</div>
-							<div className="lg:ml-6 mt-3 mb-8 md:mt-6 md:mb-10 min-h-full flex flex-col items-start">
+							<div className="lg:ml-6 mt-4 mb-8 lg:mt-0 lg:mb-10 min-h-full flex flex-col items-start">
 								<div className=" sx:text-lg md:text-xl font-sans font-bold tracking-tighter mb-3 text-gray-700">
 									{myProject.title}
 								</div>
-								<div className="text-xs sx:text-sm  font-sans mb-3 text-gray-600">
+								<div className="text-xs sx:text-sm tracking-wider font-sans mb-3 text-gray-600">
 									{myProject.description}
 								</div>
 								<div className="text-xs sx:text-sm  font-sans text-gray-600 ">
