@@ -6,7 +6,7 @@ function Projects() {
 		"overflow-hidden shadow-md shadow-gray-300 group container rounded-md flex justify-center items-center mx-auto content-div bg-cover relative bg-transparent min-w-full lg:w-5/6 md:col-span-2";
 
 	return (
-		<div className="bg-neutral-100 py-2 sx:py-6">
+		<div className="bg-neutral-100 py-2 sx:py-6 lg:py-14">
 			<div
 				className="max-w-[1200px] mx-auto my-6 lg:my-16 px-2 sx:px-5"
 				id="projects"
@@ -17,7 +17,7 @@ function Projects() {
 					</p>
 				</div>
 
-				<div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-y-28">
+				<div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-y-40">
 					{MyProjects.map((myProject, index) => (
 						<>
 							<div className={cssProjectContainer} key={index.myProject}>
@@ -38,7 +38,7 @@ function Projects() {
 									</div>
 								</div>
 							</div>
-							<div className="lg:ml-6 mt-4 mb-8 lg:mt-0 lg:mb-10 min-h-full flex flex-col items-start">
+							<div className="lg:ml-6 mt-3 sx:mt-5 mb-10 lg:mt-0 lg:mb-10 min-h-full flex flex-col items-start">
 								<div className=" sx:text-lg md:text-xl font-sans font-bold tracking-tighter mb-3 text-gray-700">
 									{myProject.title}
 								</div>
