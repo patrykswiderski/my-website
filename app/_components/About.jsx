@@ -13,7 +13,7 @@ function About() {
 							<h2 className="text-xl sx:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-gray-800 tracking-tight ">
 								About Me
 							</h2>
-							<p className=" text-gray-700 text-justify sx:text-left text-xs sx:text-sm md:text-lg lg:text-xl font-sans tracking-widest">
+							<p className=" text-gray-700 text-justify sx:text-left text-xs xs:text-sm sm:text-base lg:text-lg  font-sans tracking-widest">
 								Hey, my name is Patryk. I am a passionate full-stack developer
 								based in Warsaw, Poland. I specialize in React, Next.js, Node.js
 								& more. I like making life better through technology by creating

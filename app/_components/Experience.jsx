@@ -26,11 +26,11 @@ function Experience() {
 							</li>
 							<li>
 								Developed scalable backend services with payments system using
-								NestJS and MongoDB.
+								NestJS, Stripe, NextAuth and MongoDB.
 							</li>
 							<li>Implemented multilingual support with i18Next.</li>
 							<li>
-								Built mobile apps using pure React and Redux, Gradle and
+								Built mobile apps using pure React and Redux, Gradle, Metro and
 								Thirdweb.
 							</li>
 						</ul>
@@ -79,7 +79,7 @@ function Experience() {
 							<li>
 								Built a single-page app from scratch with a complex user
 								interface, including user interactions and animations using
-								React.js, Redux and Tailwind.
+								React, Redux and Tailwind.
 							</li>
 							<li>
 								Utilized Redux for state management and ensured efficient data
@@ -110,7 +110,7 @@ function Experience() {
 									<li className={styleListElement}>JWT</li>
 									<li className={styleListElement}>Bootstrap</li>
 									<li className={styleListElement}>Rest API</li>
-									<li className={styleListElement}>Shadcn/ui</li>
+									<li className={styleListElement}>Shadcn</li>
 									<li className={styleListElement}>NextAuth</li>
 									<li className={styleListElement}>Stripe</li>
 									<li className={styleListElement}>a11y</li>

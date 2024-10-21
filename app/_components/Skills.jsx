@@ -20,7 +20,7 @@ function Skills() {
 				<div className="grid grid-cols-2 xs:grid-cols-2 sx:grid-cols-3 sm:grid-cols-3 lg:grid-cols-5 sm:gap-x-4 gap-y-6 sx:gap-y-8 md:gap-y-12 lg:gap-y-18 my-2 px-2 sx:px-5 w-full">
 					{skillsData.map((skill, index) => (
 						<div
-							key={index}
+							key={index.skill}
 							className="flex flex-col justify-center items-center  my-4 mx-auto sm:my-0 w-[50px] xs:w-[80px] transform duration-300 hover:-translate-y-1"
 						>
 							<Image

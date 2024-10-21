@@ -21,6 +21,9 @@ module.exports = {
 				"xl": "1280px", // Domyślny breakpoint Tailwind
 				"2xl": "1536px", // Domyślny breakpoint Tailwind
 			},
+			aspectRatio: {
+				"4/3": "4 / 3",
+			},
 			// keyframes: {
 			// 	"flash-horizontal": {
 			// 		"0%": { backgroundPosition: "-200% 0" },
